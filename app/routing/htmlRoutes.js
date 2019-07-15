@@ -1,5 +1,5 @@
 
-var friendArray=require('friendArray')
+var friendArray=require('../data/friend')
 
 
 var path = require('path')
