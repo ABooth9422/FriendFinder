@@ -15,8 +15,10 @@ app.get('/home',function(req,resp){
     resp.sendFile(path.join(__dirname,"../public/home.html"))
 })
 
-app.get('/'||'*',function(req,resp){
+app.get('/' ,function(req,resp){
     resp.sendFile(path.join(__dirname,'../public/home.html'))
 })
-
+app.get('*' ,function(req,resp){
+    resp.sendFile(path.join(__dirname,'../public/home.html'))
+})
 }
