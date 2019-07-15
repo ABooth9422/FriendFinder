@@ -15,6 +15,10 @@ app.post("/api/friends",function(req,resp){
 
 })
 
+app.get("/bestfriends",function(req,resp){
+    resp
+})
+
 
 
 }
