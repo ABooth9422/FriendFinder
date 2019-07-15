@@ -1,7 +1,7 @@
 
 
 var path = require('path')
-var friendArray=require('friendArray')
+var friendArray=require('../data/friend')
 
 
 module.exports= function(app){
