@@ -19,6 +19,4 @@ app.get("/bestfriends",function(req,resp){
     resp
 })
 
-
-
 }
