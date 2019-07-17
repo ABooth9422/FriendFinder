@@ -180,8 +180,11 @@
                 photo,
                 scores
             }
-            const reducer = (accumulator, currentValue) => accumulator + currentValue
-            var currentscore=scores.reduce(reducer)
+            for (let index = 0; index < scores.length; index++) {
+               var currentscore =+ scores[0]
+                
+            }
+            
             console.log("current score: " +currentscore)
         $.post("/api/friends", friend, function (data) {
             reset()
