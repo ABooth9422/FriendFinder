@@ -22,7 +22,7 @@ module.exports = function (app) {
             friends.forEach(element => {
                 var total = 0
                 for (let index = 0; index < element.scores.length; index++) {
-                    total += Math.abs(req[index] - element.scores[index])
+                    total += Math.abs(req.scores[index] - element.scores[index])
                 }
                 if (total < difference) {
                     match = element
