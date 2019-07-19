@@ -24,6 +24,21 @@ npm install express path
 ```sh
 run npm start
 ```
+## Instructions
+
+Welcome to the app that can find your best friend!
+
+If you want to find your best friend click the button on the home page.
+
+When you get to the next screen fill out all the survey questions and it will return the best match for you.
+
+## API CALLS
+
+Everyone who completes the survey will have there information store in our very own api. If you click the hyperlink in the bottom left 
+
+corner you can have access to our API.
+
+
 
 ## Author
 
