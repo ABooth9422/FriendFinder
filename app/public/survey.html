@@ -239,6 +239,8 @@
 
             var moreImages = $("<img src= still image'>")
             moreImages.attr("src", data.photo)
+            moreImages.css("width","400px")
+            moreImages.css("height","400px")
 
             modal.append(name, moreImages)
             $("#exampleModal").modal("show")
