@@ -24,6 +24,16 @@ npm install express path
 ```sh
 run npm start
 ```
+
+## Purpose
+The purpose of this app is to demonstrate a full-stack application that is hosted by heroku. This is the first full-stack application
+
+that we have developed in the program. We are handling our routes and sending responses back from a server that we have
+
+created. The app will store every user that is created on our form in an attempt to match the closest matches with the closest
+
+absolute value in scores. When the user completes the form it will return the closest match to the user that just filled out the form.
+
 ## Instructions
 
 Welcome to the app that can find your best friend!
